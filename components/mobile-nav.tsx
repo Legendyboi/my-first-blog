@@ -37,7 +37,7 @@ export function MobileNav(){
                         Github
                     </Link>
                     <Link target="_blank" rel="noreferrer" href={siteConfig.links.twitter}>
-                        <Icons.twitter className="h-4 w-4" /> Twitter
+                        Twitter
                     </Link>
                 </div>
             </SheetContent>
