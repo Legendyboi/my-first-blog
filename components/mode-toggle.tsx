@@ -10,7 +10,6 @@ import {
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 
-
 export function ModeToggle() {
   const { setTheme } = useTheme();
 
@@ -29,6 +28,15 @@ export function ModeToggle() {
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
           Dark
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("catppuccin-mocha")}>
+          Catppuccin Mocha
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("eviloma-light")}>
+          Eviloma Light
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("eviloma-dark")}>
+          Eviloma Dark
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("system")}>
           System
